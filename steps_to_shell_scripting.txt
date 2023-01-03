@@ -1,3 +1,5 @@
+					Author : SACHIN PATEL
+
 1] Basic commands to copy , move , rename , delete the files.
 2] Editor to edit the files within the terminal. nano & vi
 3] Ability to change the permissions of a file.
