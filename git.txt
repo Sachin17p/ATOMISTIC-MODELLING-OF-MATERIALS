@@ -1,0 +1,51 @@
+Version Control :
+
+Every time you save the file gets updated.
+Make file -> Compile only those files which have been modified.
+Group of programmers working on a project -> Modular approach where there are lots and lots of codes and files in a 
+mega project.
+Each programmer can work on a typical alloted file.
+Each programmer has many different versions of each file they work on.
+Version control is there to help us trace back to working version of the code.
+No. of versions = # of users x # of files x # of different versions per file.
+
+Different verison control systms : 
+1] SVN : Centrally hosted and managed version system
+2] GIT : Distributed version control system
+
+There are techniques available in order to mitigate the failure of storage systems like hard disks 
+RAID(Redundant Array of Independent Disks) is one such technique. Data is distributed across multiple disks in one of 
+several ways so that if one disk fails then the data is available on other disks. 
+In a RAID system usage space < actual space.
+
+Ways to use GIT;
+
+-GIT lab
+-Locally run GIT server
+-Campus GIT server
+-github.com
+
+
+Please go and register yourself on github.com 
+-enabel rwo factor authentication
+-prefer microsoft authentiactor app
+-create a repo
+-practice git actions 
+
+How to clone a repository on your local machine from github ?
+git clone url_of_repository.git (You need to add .git at the end)
+
+Use "git init" to initialize the connection with your local machine.
+gut remote add master url_of_repository -> will create a master file with local machine
+git config --global user.name "name of the user" -> checks whether something has to be done with that user's material.
+git config --global user.email "emailid" -> will verify the email address
+git status -> checks what have you modified 
+git add file_modified -> will update corresponding file on repository online
+git commit -m "Message that you want to notify"  -> Notifies everyone what have you modified in the message.
+ 
+
+
+
+D
+D
+git clone url_of_the_repository.git  
